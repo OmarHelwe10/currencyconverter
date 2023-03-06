@@ -30,7 +30,7 @@ document.getElementById("addedflags").style.visibility="visible";
 }
 function exchangerate(){
       var selectedcurrency = document.getElementById("addedcurrencies").innerHTML;
-      var URL = 'https://api.fastforex.io/fetch-multi?from=' + selectedcurrency + '&to=USD&api_key=78d4fd59b7-fc115d3bea-rqf32w'
+      var URL = 'https://api.fastforex.io/fetch-multi?from=' + selectedcurrency + '&to=USD&api_key=aa4aee2b2f-a7da6e798d-rr3d6m'
       fetch(URL)
          .then(response => response.json())
          .then(data => {

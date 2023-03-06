@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignement 2</title>
+<style>
+body{
+background-color: black;
+}
+img{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;;}
+#slc{
+    background-color:black;
+    color: yellow;
+}
+button{
+    background-color:black;
+color: yellow;}
+p{
+    font-size: large;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: yellow;}
+h1{text-align: center;
+    color: yellow;
+}
+</style>
+
+</head>
+<body>
+   <h1 ><u>Assignment 2</u> </h1>
+<select id="slc" onchange="createbutton()"></select>
+ <div id="addedcurrencies" onclick="exchangerate()"></div>
+<img id="addedflags" style="visibility: hidden"/>
+<p id="exchanged"></p>
+<script src="index.js"></script>
+
+</body>
+</html>
